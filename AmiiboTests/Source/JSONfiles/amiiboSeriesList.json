@@ -1,0 +1,20 @@
+{
+    "amiibo": [
+        {
+            "amiiboSeries": "Chibi-Robo!",
+            "character": "Chibi-Robo",
+            "gameSeries": "Chibi Robo",
+            "head": "22c00000",
+            "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_22c00000-003a0202.png",
+            "name": "Chibi Robo",
+            "release": {
+                "au": "2015-11-07",
+                "eu": "2015-11-06",
+                "jp": "2015-10-08",
+                "na": "2015-10-09"
+            },
+            "tail": "003a0202",
+            "type": "Figure"
+        }
+    ]
+}
