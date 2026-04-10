@@ -20,16 +20,16 @@ extension AmiiboRequest: RequestType {
         switch self {
         case .getSeriesList:
             
-            return QueryRequester(urlString: "https://amiiboapi.com/api/amiiboseries/")
+            return QueryRequester(urlString: "https://amiiboapi.org/api/amiiboseries/")
         case .getGameSeriesList:
             
-            return QueryRequester(urlString: "https://amiiboapi.com/api/gameseries/")
+            return QueryRequester(urlString: "https://amiiboapi.org/api/gameseries/")
         case let .getSerie(serie):
             
-            return QueryRequester(urlString: "https://amiiboapi.com/api/amiibo/?amiiboSeries=" + serie)
+            return QueryRequester(urlString: "https://amiiboapi.org/api/amiibo/?amiiboSeries=" + serie)
         case let .getGameSerie(gameSerie):
             
-            return QueryRequester(urlString: "https://amiiboapi.com/api/amiibo/?gameseries=" + gameSerie)
+            return QueryRequester(urlString: "https://amiiboapi.org/api/amiibo/?gameseries=" + gameSerie)
         case let .getAmiiboImage(url):
             
             return QueryRequester(urlString: url)
